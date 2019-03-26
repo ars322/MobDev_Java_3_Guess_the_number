@@ -2,6 +2,7 @@ package com.example.guess_the_number;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
         etInput = findViewById(R.id.editText);
         bControl = findViewById(R.id.button);
 
+    }
+
+    public void onClick(View view) {
     }
 }
