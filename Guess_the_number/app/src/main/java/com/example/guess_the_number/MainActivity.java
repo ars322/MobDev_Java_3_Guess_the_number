@@ -25,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+        int value = Integer.parseInt(etInput.getText().toString());
+        tvInfo.setText(getResources().getString(R.string.ahead));
     }
 }
